@@ -1,15 +1,107 @@
 body {
   font-family: "Montserrat";
   font-size: 16px;
+  padding-top: 50px;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+.navbar-default {
+  background-color: red;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.nav.navbar-nav li a {
+  color: white !important;
+}
+.nav .navbar-nav li a:hover {
+  color: white !important;
+}
+
 .navbar-brand {
   font-family: "Passion One";
   font-size: xx-large;
+  color: white;
+}
+
+.who-delivers {
+  background: url("images/main-hero.jpg") no-repeat center;
+  background-size: cover;
+  height: 450px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-apps {
+  background: url("images/download-hero.jpg") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-apps img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  background-color: mediumblue;
+  color: white;
+}
+
+.gray-bg {
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+.resize-circles {
+  width: 200px;
+  height: auto;
+}
+
+.resize-smaller-circles {
+  width: 50px;
+  height: auto;
+}
+
+.comment {
+  margin: 20 px 20px 0 0;
+}
+
+.comment-headshot img {
+  float:left;
+}
+
+.comment-content {
+  overflow: hidden;
+}
+
+.comment-content h4 {
+  font-weight: bold;
+}
+
+.extendfull, .extendleft
+{
+  padding-left: 3000px;
+  margin-left: -3000px;
+}
+
+.extendfull, .extendright
+{
+  padding-right: 3000px;
+  margin-right: -3000px;
 }
 
 /* My standard vertical spacing classes */
